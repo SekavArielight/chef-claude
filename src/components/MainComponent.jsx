@@ -10,6 +10,11 @@ const MainComponent = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log("Form Submitted");
+    const formData = new FormData(event.currentTarget);
+    const newIngredient = formData.get("ingredient");
+    console.log(newIngredient);
+    ingredients.push(newIngredient);
+    console.log(ingredients);
   };
 
   return (
