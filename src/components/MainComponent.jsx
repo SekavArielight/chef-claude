@@ -20,7 +20,7 @@ export default function Main() {
       <form onSubmit={handleSubmit} className="add-ingredient-form">
         <input
           type="text"
-          placeholder="e.g. oregano"
+          placeholder="e.g. beans"
           aria-label="Add ingredient"
           name="ingredient"
         />
