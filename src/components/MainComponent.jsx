@@ -30,6 +30,8 @@ const MainComponent = () => {
       </form>
 
       <ul>{ingredientsListsItem}</ul>
+
+      
     </main>
   );
 };
