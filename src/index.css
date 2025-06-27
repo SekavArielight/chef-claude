@@ -135,3 +135,24 @@ body {
     margin-right: -20px;
     z-index: 1;
 }
+
+/* TOGGLE STATE CSS */
+
+main > .title {
+    text-align: center;
+}
+
+main > .value {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "./components/Header";
 import MainComponent from "./components/MainComponent";
-import Counter from "./components/Counter";
+import ToggleState from "./components/ToggleState";
 
 const App = () => {
   return (
     <>
       <Header />
       <MainComponent/>
-      <Counter/>
+      <ToggleState/>
     </>
   );
 };
