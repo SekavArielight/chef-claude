@@ -26,7 +26,6 @@ export default function Main() {
         <button>Add ingredient</button>
       </form>
       <ul>{ingredientsListItems}</ul>
-      <ConditionalRendering/>
     </main>
   );
 }
