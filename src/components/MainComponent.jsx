@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ConditionalRendering from "./ConditionalRendering";
 
 export default function Main() {
   const [ingredients, setIngredients] = useState([]);
@@ -25,6 +26,7 @@ export default function Main() {
         <button>Add ingredient</button>
       </form>
       <ul>{ingredientsListItems}</ul>
+      <ConditionalRendering/>
     </main>
   );
 }
