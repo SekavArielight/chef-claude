@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import MainComponent from "./components/MainComponent";
-import ToggleState from "./components/ToggleState";
+import Counter from "./components/Counter";
 
 const App = () => {
   return (
